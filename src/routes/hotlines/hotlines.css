@@ -32,8 +32,8 @@ h1 {
 
 /* Hotline Box Styles */
 .hotline {
-    flex: 1 1 calc(33.33% - 20px); /* Make each item one-third width with space */
-    min-width: 250px; /* Minimum width to help with responsiveness */
+    flex: 1 1 calc(33.33% - 20px);
+    min-width: 250px;
     background-color: #ffffff;
     border: 1px solid #666;
     border-radius: 5px;
@@ -74,7 +74,7 @@ h1 {
         font-size: 2em;
     }
     .hotline {
-        flex: 1 1 calc(50% - 20px); /* Two items per row on medium screens */
+        flex: 1 1 calc(50% - 20px);
     }
 }
 
@@ -87,11 +87,11 @@ h1 {
         font-size: 1.8em;
     }
     .hotline-container {
-        flex-direction: column; /* Stack items vertically on smaller screens */
+        flex-direction: column;
     }
     .hotline {
-        flex: 1 1 100%; /* Each hotline takes full width on mobile */
-        margin-bottom: 20px; /* Add spacing between hotline items */
+        flex: 1 2 100%;
+        margin-bottom: 20px;
     }
 }
 
